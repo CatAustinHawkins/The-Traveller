@@ -6,7 +6,7 @@ public class PowerOffScreen : MonoBehaviour
 
     public void PowerOn()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Gameplay");
     }
 
 }

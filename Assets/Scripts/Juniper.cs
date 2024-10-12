@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -21,9 +19,9 @@ public class Juniper : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-            DialogueBox.SetActive(true);
-            Name.text = "Banana and Juniper";
-            Dialogue.text = "Let's play hide and seek! Good luck finding us!";
+        DialogueBox.SetActive(true);
+        Name.text = "Banana and Juniper";
+        Dialogue.text = "Let's play hide and seek! Good luck finding us!";
         QuestText1.text = "Find me!";
         QuestText2.text = "Find me!";
 
@@ -38,8 +36,6 @@ public class Juniper : MonoBehaviour
             JuniperHiding.SetActive(true);
             BananaHiding.SetActive(true);
             gameObject.SetActive(false);
-
-
         }
     }
 }

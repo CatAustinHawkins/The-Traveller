@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 
 //this script is on the FishingRod
 public class Fishing : MonoBehaviour

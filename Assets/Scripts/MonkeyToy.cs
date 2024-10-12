@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonkeyToy : MonoBehaviour
@@ -11,5 +9,4 @@ public class MonkeyToy : MonoBehaviour
         PlayerScript.GotMonkey = true;
         gameObject.SetActive(false);
     }
-
 }

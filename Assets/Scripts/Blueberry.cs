@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -13,6 +11,7 @@ public class Blueberry : MonoBehaviour
     public TextMeshProUGUI Quest2Text;
     public Player PlayerScript;
     public GameObject Cookie;
+
     public void OnTriggerEnter(Collider other)
     {
         DialogueBox.SetActive(true);
